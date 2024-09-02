@@ -1,0 +1,29 @@
+/* =====Page++++== */
+.Fist-page-img {
+  opacity: 1;
+  animation: PageIMG1 1s ease-in;
+}
+@keyframes PageIMG1 {
+  0% {
+    transform: translateX(-300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.body-first .Page-home-text {
+  opacity: 1;
+  animation: PageText1 1s ease-in;
+}
+@keyframes PageText1 {
+  0% {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,233 @@
+/* ========First Navbar=====*/
+@media (max-width: 992px) {
+  .navbar-first {
+    display: none;
+  }
+}
+/* ==========Navbar=========== */
+@media (max-width: 578px) {
+  .navbar-main a {
+    font-size: 1.3rem;
+    text-decoration: none;
+  }
+  .container .body-first h3 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+  .container .body-first h1 {
+    color: white;
+    font-size: 1.6rem;
+  }
+  .container .body-first h2 {
+    color: white;
+    font-size: 2.3rem;
+  }
+  .container .body-first p {
+    color: white;
+    text-align: center;
+  }
+  .navbar-toggler {
+    font-size: 0.8rem;
+  }
+  .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  .search-button1 button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+  .Attention i {
+    color: blue;
+    font-size: 1rem;
+    padding-left: 5px;
+  }
+  .Attention .Text {
+    color: black;
+    font-size: 0.8rem;
+    position: absolute;
+    padding-top: 1px;
+  }
+}
+@media (min-width: 578.99px) and (max-width: 767.98px) {
+  .Box-blog {
+    position: relative;
+  }
+  .Attention i {
+    color: blue;
+    font-size: 1rem;
+    padding-left: 20px;
+  }
+  .Attention .Text {
+    color: black;
+    font-size: 1rem;
+    position: absolute;
+    padding-top: 1px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Box-blog {
+    position: relative;
+  }
+  .Attention i {
+    color: blue;
+    font-size: 1.2rem;
+    padding-left: 35px;
+  }
+  .Attention .Text {
+    color: black;
+    font-size: 1.2rem;
+    position: absolute;
+    padding-top: -20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .Box-blog {
+    position: relative;
+  }
+  .Attention i {
+    color: blue;
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+  .Attention .Text {
+    color: black;
+    font-size: 0.6rem;
+    position: absolute;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .Box-blog {
+    position: relative;
+  }
+  .Attention i {
+    color: blue;
+    font-size: 1rem;
+    padding-left: 30px;
+  }
+  .Attention .Text {
+    color: black;
+    font-size: 0.6rem;
+    position: absolute;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 0px) and (max-width: 759.99px) {
+  .search-button2 button {
+    display: none;
+  }
+  .navbar-toggler {
+    font-size: 0.8rem;
+  }
+  .nav-item .nav-link {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 579px) {
+  .navbar-main a {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .search-button1 button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+  }
+}
+@media (min-width: 580px) and (max-width: 758px) {
+  .navbar-main a {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+}
+@media (min-width: 760px) {
+  .navbar-main a {
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .navbar-main .life-style {
+    position: absolute;
+    left: 0px;
+    display: inline;
+  }
+  .navbar-toggler {
+    font-size: 1rem;
+  }
+  .nav-item .nav-link {
+    font-size: 1rem;
+  }
+  .search-button1 button {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-main .life-style i {
+    font-size: 1.2rem;
+  }
+  .nav-item .nav-link {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1200px) {
+  .navbar-main a {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  .nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .navbar-main .nav-item .drop-main .nav-link {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 1400px) {
+  .navbar-call {
+    display: none;
+  }
+}
+/* ==========.Box-blog============= */
+@media (max-width: 568px) {
+  .Box-blog span {
+    font-size: 0.6rem;
+  }
+}
+@media (min-width: 992px) {
+  .Box-blog span {
+    font-size: 0.6rem;
+  }
+}
+/* ============Body========= */
+@media (min-width: 630px) {
+  .container .body-first h3 {
+    color: white;
+    font-size: 1rem;
+  }
+  .container .body-first h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  .container .body-first h2 {
+    color: white;
+    font-size: 2.5rem;
+  }
+}

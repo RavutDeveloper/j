@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" type="x-icon" href="../Picture/LOGO-ICON.svg" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life-Website</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/CSS_Responsive.css" />
+    <link rel="stylesheet" href="../CSS/Keyframs.css" />
+  </head>
+  <body>
+    <!-- ================Home============== -->
+    <!-- =======Navbar-1===== -->
+    <header class="container-fluid navbar-first mt-0 topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-lg-start">
+            <div class="d-flex">
+              <div class="border-end border-primary">
+                <a href="#" class="nav_Alink pe-4"
+                  ><i class="bx bxs-map pe-2 text-primary pt-2"></i>Find
+                  ALocation</a
+                >
+              </div>
+              <div class="ps-4">
+                <a href="#" class="nav_Alink"
+                  ><i class="bx bxs-envelope pe-3 text-primary pt-2"></i
+                  >ravut5687@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-6 d-flex justify-content-end text-lg-end text-lg-center"
+          >
+            <div class="border-end border-primary d-flex ps-4 text-primary">
+              <div>
+                <i class="bx bxl-facebook-circle pe-3 pt-2"></i>
+              </div>
+              <div>
+                <i class="bx bxl-tiktok pe-3 pt-2"></i>
+              </div>
+              <div>
+                <i class="bx bxl-telegram pe-3 pt-2"></i>
+              </div>
+              <div>
+                <i class="bx bxl-instagram-alt pe-3 pt-2"></i>
+              </div>
+            </div>
+
+            <div class="dropdown" style="z-index: 2">
+              <i class="bx bx-world ps-3 text-primary pt-2"></i>
+              <button
+                class="btn btn-light dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                ENglish
+              </button>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" class="dropdown-item Droooppp">English</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item Droooppp">English</a>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item Droooppp">English</a>
+                </li>
+                <li><a href="#" class="dropdown-item Droooppp">U.S.A</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- =======Navbar-main======== -->
+
+    <div class="container-fluid sticky-top bg-white" style="z-index: 1">
+      <div class="container">
+        <div class="navbar navbar-main navbar-expand-lg">
+          <div class="d-flex justify-content-start search-button1 ps-3">
+            <button
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#searchModal"
+            >
+              <i class="bx bx-search"></i>
+            </button>
+          </div>
+          <a href="#" class="pe-5 life-style sticky-top pt-2">
+            <i class="bx bxl-slack pe-3 align-items-center"></i>LifeSure</a
+          >
+          <button
+            class="navbar-toggler button-main justify-content-end bg-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#nav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse flex-row justify-content-start homeMenu flex-lg-row-reverse"
+            id="nav"
+          >
+            <ul class="navbar-nav ps-3">
+              <li class="nav-item">
+                <a href="../Home/index.html" class="nav-link pe-5">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="../About/about.html" class="nav-link pe-5">About</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../Service/service.html"
+                  class="nav-link pe-5 text-primary"
+                  >Service</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="../Blog/blog.html" class="nav-link pe-5">Blog</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown drop-main pe-4">
+                  <a
+                    href="../Page/page.html"
+                    class="nav-link"
+                    data-bs-toggle="dropdown"
+                  >
+                    Page
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a href="../About/about.html" class="dropdown-item"
+                        >About</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../Service/service.html" class="dropdown-item"
+                        >Service</a
+                      >
+                    </li>
+                    <li>
+                      <a href="../Contact/contact.html" class="dropdown-item"
+                        >Contact</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="../Contact/contact.html" class="nav-link pe-5"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <div class="d-flex justify-content-start search-button2 ps-3">
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#searchModal"
+              >
+                <i class="bx bx-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =========>Search Modal========== -->
+    <div class="container-fluid">
+      <div class="modal bg-dark" id="searchModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="form-outline">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Search..."
+                  id="Searching"
+                />
+              </div>
+              <button
+                class="btn btn-primary mt-3"
+                type="button"
+                data-bs-dismiss="modal"
+              >
+                Cancel
+              </button>
+              <button class="btn btn-primary mt-3 ms-3" for="#" type="submit">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hyperlink Page -->
+    <div class="container-fluid">
+      <div class="container">
+        <div class="row flex-md-row-reverse">
+          <div class="col-12 col-md-6">
+            <img src="../Picture/Our Service.jpg" width="100%" alt="" />
+          </div>
+          <div class="col-12 col-md-6 my-auto">
+            <h1 class="text-primary">WELCOME TO OUR SERVICES</h1>
+            <h2 class="text-center pb-5">
+              HOPE YOU'RE PREFER OUR SERVICES ETC
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our service  -->
+    <div class="container-fluid bg-light" id="Service">
+      <div class="container text-center pt-5">
+        <p style="color: blue; font-size: 2rem">Our Services</p>
+        <h1>We Provide Best Services</h1>
+        <p class="pb-5">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+          mollitia molestias hic, ducimus earum eligendi aperiam ex illum
+          officia distinctio fugit voluptate cupiditate,
+        </p>
+      </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-12 col-sm-6 col-md-6 text-start mt-5">
+            <div class="Our-service-box">
+              <div class="cars">
+                <img
+                  src="../Picture/blog-1.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+
+              <div class="text-lg-start provide">
+                <h2 class="">Life Insurance</h2>
+                <p class="pt-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quibusdam id reiciendis dolor animi molestias modi!
+                </p>
+                <button class="btn mt-4 ms-4 mb-4">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 mt-5">
+            <div class="Our-service-box">
+              <div class="cars">
+                <img
+                  src="../Picture/blog-2.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+
+              <div class="text-lg-start provide">
+                <h2 class="">Health Insurance</h2>
+                <p class="pt-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quibusdam id reiciendis dolor animi molestias modi!
+                </p>
+                <button class="btn mt-4 mb-4">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 mt-5">
+            <div class="Our-service-box">
+              <div class="cars">
+                <img
+                  src="../Picture/blog-3.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+
+              <div class="text-lg-start provide">
+                <h2 class="">Car Insurance</h2>
+                <p class="pt-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quibusdam id reiciendis dolor animi molestias modi!
+                </p>
+                <button class="btn mt-4 mb-4">Read More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 mt-5">
+            <div class="Our-service-box">
+              <div class="cars">
+                <img
+                  src="../Picture/blog-4.png"
+                  width="100%"
+                  height="100%"
+                  alt=""
+                />
+              </div>
+
+              <div class="text-lg-start provide">
+                <h2 class="">Home Insurance</h2>
+                <p class="pt-4">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quibusdam id reiciendis dolor animi molestias modi!
+                </p>
+                <button class="btn mt-4 mb-4">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-5 pb-5">
+          <div class="btn btn-primary">More Services</div>
+        </div>
+      </div>
+      <hr size="5px" color="black" />
+    </div>
+    <!-- Our costomer  -->
+    <div class="container-fluid mt-5 mb-5" id="client">
+      <div class="container text-center pt-5">
+        <h2 class="text-primary">Our Task</h2>
+        <h3 class="text-primary">What Our Costomers Are Saying</h3>
+        <p class="pt-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+          voluptatibus perferendis aliquam eaque, numquam veritatis quae
+          voluptas ex commodi dolores.
+        </p>
+      </div>
+      <div class="container d-flex bg-light p-2 mt-5">
+        <div class="row g-5">
+          <div class="col-12 col-md-6 mt-4 bg-white">
+            <div class="row g-0 client">
+              <div class="col-8 col-lg-8 col-xl-9">
+                <div
+                  class="teaminfo text-start d-flex flex-column justify-content-center align-items-start pt-5"
+                >
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+                <div
+                  class="team-icon text-primary d-flex align-items-start justify-content-start"
+                >
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+                <div class="PTage my-auto pt-5">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore non culpa soluta exercitationem a excepturi, est
+                    cum quam optio quidem, similique, nemo?
+                  </p>
+                </div>
+              </div>
+              <div class="col-4 col-lg-4 col-xl-3">
+                <div class="teampic h-100">
+                  <img
+                    src="../Picture/testimonial-1 (1).jpg"
+                    class="img-fluid h-100 rounded"
+                    style="object-fit: cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-4 bg-white">
+            <div class="row g-0 client">
+              <div class="col-4 col-lg-4 col-xl-3">
+                <div class="teampic h-100">
+                  <img
+                    src="../Picture/testimonial-2.jpg"
+                    class="img-fluid h-100 rounded"
+                    style="object-fit: cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-8 col-lg-8 col-xl-9">
+                <div
+                  class="teaminfo text-start d-flex flex-column justify-content-center align-items-start ps-2 pt-5"
+                >
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+                <div
+                  class="team-icon text-primary d-flex align-items-start justify-content-start ps-2"
+                >
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+                <div class="PTage my-auto pt-5 text-start ps-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore non culpa soluta exercitationem a excepturi, est
+                    cum quam optio quidem, similique, nemo?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-4 bg-white">
+            <div class="row g-0 client">
+              <div class="col-8 col-lg-8 col-xl-9">
+                <div
+                  class="teaminfo text-start d-flex flex-column justify-content-center align-items-start pt-5"
+                >
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+                <div
+                  class="team-icon text-primary d-flex align-items-start justify-content-start"
+                >
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+                <div class="PTage my-auto pt-5">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore non culpa soluta exercitationem a excepturi, est
+                    cum quam optio quidem, similique, nemo?
+                  </p>
+                </div>
+              </div>
+              <div class="col-4 col-lg-4 col-xl-3">
+                <div class="teampic h-100">
+                  <img
+                    src="../Picture/testimonial-3.jpg"
+                    class="img-fluid h-100 rounded"
+                    style="object-fit: cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mt-4 bg-white">
+            <div class="row g-0 client">
+              <div class="col-4 col-lg-4 col-xl-3">
+                <div class="teampic h-100">
+                  <img
+                    src="../Picture/instagram-footer-4.jpg"
+                    class="img-fluid h-100 rounded"
+                    style="object-fit: cover"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="col-8 col-lg-8 col-xl-9">
+                <div
+                  class="teaminfo text-start d-flex flex-column justify-content-center align-items-start pt-5 ps-2"
+                >
+                  <h4>Client Name</h4>
+                  <p>Profession</p>
+                </div>
+                <div
+                  class="team-icon text-primary d-flex align-items-start justify-content-start ps-2"
+                >
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                  <i class="bx bxs-star"></i>
+                </div>
+                <div class="PTage my-auto pt-5 text-start ps-2">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore non culpa soluta exercitationem a excepturi, est
+                    cum quam optio quidem, similique, nemo?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- =========Footer=========== -->
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="row pt-5">
+          <div
+            class="col-12 col-md-6 col-lg-6 col-xl-3 text-center nav-lifes mt-5"
+          >
+            <div class="nav-life">
+              <a href="#" class="pe-5 life-style">
+                <i class="bx bxl-slack pe-3"></i>LifeSure</a
+              >
+            </div>
+            <div>
+              <p class="text-white">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor,
+                veritatis?
+              </p>
+            </div>
+            <div class="d-flex icon-foter justify-content-center">
+              <div class="style-icon">
+                <i class="bx bxl-facebook-circle"></i>
+              </div>
+              <div class="style-icon ms-3">
+                <i class="bx bxl-tiktok"></i>
+              </div>
+              <div class="style-icon ms-3">
+                <i class="bx bxl-telegram"></i>
+              </div>
+              <div class="style-icon ms-3">
+                <i class="bx bxl-instagram-alt"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 useful-footer mt-5">
+            <div class="text-start">
+              <h2>Useful links</h2>
+            </div>
+            <div class="nav-list text-start">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a href="../About/index.html" class="nav-link text-white"
+                    >> About Us</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#Featurs" class="nav-link text-white">> Features</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#Service" class="nav-link text-white"
+                    >> Service Page</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="#client" class="nav-link text-white"
+                    >> Our clients</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="../Blog/index.html" class="nav-link text-white"
+                    >> Blogs</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a href="../Contact/index.html" class="nav-link text-white"
+                    >> Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 instagram mt-5">
+            <div><h2>Instagram</h2></div>
+            <div class="row">
+              <div class="d-flex justify-content-center">
+                <div class="nav-img">
+                  <img
+                    src="../Picture/instagram-footer-1.jpg"
+                    class="rounded"
+                    width="80%"
+                  />
+                </div>
+
+                <div class="nav-img">
+                  <img
+                    src="../Picture/instagram-footer-2.jpg"
+                    class="rounded"
+                    width="80%"
+                  />
+                </div>
+                <div class="nav-img">
+                  <img
+                    src="../Picture/instagram-footer-3.jpg"
+                    class="rounded"
+                    width="80%"
+                  />
+                </div>
+              </div>
+              <div class="d-flex mt-3">
+                <div class="nav-img">
+                  <img
+                    src="../Picture/instagram-footer-4.jpg"
+                    class="rounded"
+                    width="80%"
+                  />
+                </div>
+                <div class="nav-img">
+                  <img
+                    src="../Picture/instagram-footer-5.jpg"
+                    class="rounded"
+                    width="80%"
+                  />
+                </div>
+                <div class="nav-img">
+                  <img
+                    src="../Picture/instagram-footer-6.jpg"
+                    class="rounded"
+                    width="80%"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 mt-5 text-white">
+            <div><h1>Newsletter</h1></div>
+            <div>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum,
+                reprehenderit!
+              </p>
+            </div>
+            <div class="form-floating mt-4">
+              <input
+                type="email "
+                id="SignUp"
+                placeholder=""
+                class="form-control"
+              />
+              <label for="SignUp" class="text-dark">Enter your Email </label>
+              <button class="btn btn-primary mt-4 mb-4">Sign Up</button>
+            </div>
+            <div class="navbar">
+              <div class="Call-me d-flex">
+                <div class="flex-row align-item-center">
+                  <i class="bx bx-phone-call pt-4"></i>
+                </div>
+                <div>
+                  <div><p class="text-light">Call to me for an issues</p></div>
+                  <div><h6 class="text-white">Free: +885 69 398 172</h6></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr color="white" size="5px" />
+      </div>
+      <div class="container d-flex justify-content-center">
+        <div class="row g-5">
+          <div class="col-12 col-md-4 Address-footer">
+            <div class="latest-footer">
+              <div class="d-flex">
+                <i class="bx bxs-map" style="margin-top: -7px"></i>
+                <h6>Address</h6>
+              </div>
+              <p>138 Street, Phnom Penh</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 Address-footer">
+            <div class="latest-footer">
+              <div class="d-flex">
+                <i class="bx bxs-envelope" style="margin-top: -7px"></i>
+                <h6 class="ps-1">Mail Us</h6>
+              </div>
+              <p>ravut5687@gmail.com</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 Address-footer">
+            <div class="latest-footer">
+              <div class="d-flex">
+                <i class="bx bx-phone" style="margin-top: -7px"></i>
+                <h6>Telephone</h6>
+              </div>
+              <p>(+885) 99 999 999</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr color="white" size="5px" />
+      <div class="container">
+        <div class="text-center">
+          <p class="text-white">
+            123 DEMO, Name 101001110001, Phnom Penh, Cambodia | Phone
+            :069-398-172 | Email:ravut5687@gmail.com
+          </p>
+          <p class="text-white">Copyright © 2024 Outdoor lifeStyle</p>
+        </div>
+      </div>
+    </div>
+    <script src="../Javascript/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

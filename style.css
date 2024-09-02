@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Konkhmer+Sleokchher&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  scroll-behavior: smooth;
+}
+.Header-icon i:hover {
+  color: red;
+  cursor: pointer;
+}
+.welcome {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 40px;
+  color: white;
+}
+
+/* ========NavFirst============ */
+.navbar-first {
+  font-size: 18px;
+  width: 100%;
+  height: auto;
+  background: rgb(243, 243, 243);
+}
+
+.nav_Alink {
+  color: gray;
+  text-decoration: none;
+}
+/* ===========MainNav============ */
+
+.navbar-main {
+  background: rgb(255, 255, 250);
+  width: auto;
+}
+.navbar-main a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+.homeMenu .nav-link {
+  font-size: 2rem;
+  font-weight: 500;
+  display: flex;
+
+  color: rgb(11, 10, 10);
+}
+.homeMenu .nav-link:hover {
+  color: rgb(23, 10, 201);
+}
+.homeMenu .nav-link:active {
+  color: rgb(23, 10, 201);
+}
+.homeMenu .nav-link .active a {
+  color: rgb(23, 10, 201);
+}
+.homeMenu {
+  border-radius: 10px;
+  border: none;
+}
+.homeMenu.active a {
+  color: red;
+
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.navbar-main .dropdown a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.getaqoute button {
+  border-radius: 20px;
+}
+.modal {
+  width: 100%;
+}
+.main-navbar {
+  width: 80%;
+}
+
+/* search-button */
+.search-button2 button {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+/* =====Body====== */
+.container .body-first h3 {
+  color: white;
+  font-size: 1rem;
+}
+.container .body-first h1 {
+  color: white;
+  font-size: 3.6rem;
+}
+.container .body-first h2 {
+  color: white;
+  font-size: 5rem;
+}
+.container .body-first p {
+  color: white;
+}
+
+.button {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+}
+.button:hover {
+  background: black;
+  color: white;
+}
+.btn {
+  background: rgb(63, 63, 255);
+  color: white;
+}
+.btn:hover {
+  background: rgb(255, 254, 254);
+  color: rgb(0, 0, 0);
+}
+.btn:active {
+  background: rgb(75, 70, 70);
+}
+.container .hyperlink-page {
+  background: white;
+  width: 100%;
+  height: auto;
+
+  box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+
+  animation: slide 5s ease-in-out 0s infinite;
+  transition: all 1s ease-in-out;
+}
+@keyframes slide {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 60%;
+  }
+}
+/* ==========Common============ */
+.box-common {
+  width: 100%;
+
+  border-radius: 10px;
+}
+/* =======Phone Icon====== */
+.Call-me p {
+  color: rgb(108, 110, 110);
+  padding: 0px;
+  font-size: 15px;
+}
+.Call-me h6 {
+  color: rgb(11, 10, 10);
+  padding: 0px;
+  font-size: 15px;
+}
+.Call-me i {
+  background: white;
+  padding: 25px;
+  margin-top: -9px;
+  margin-right: 10px;
+  width: 60px;
+  color: blue;
+  height: 60px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 9px 20px -6px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.Call-me i:hover {
+  background: rgb(87, 87, 255);
+  color: white;
+}
+
+/* =========Footer========= */
+
+/* 1. Life==== */
+.footer {
+  background: rgb(23, 23, 85);
+}
+.nav-lifes .nav-life a {
+  text-decoration: none;
+  font-size: 2rem;
+  transition: all 1s;
+  color: white;
+}
+.nav-lifes .icon-foter {
+  display: inline-flex;
+
+  color: blue;
+  align-items: center;
+  transition: all 1s;
+}
+.nav-lifes .icon-foter .style-icon {
+  background: white;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 9px 20px -6px;
+  border-radius: 50%;
+}
+.nav-lifes .icon-foter .style-icon:hover {
+  cursor: pointer;
+  background: rgb(87, 87, 255);
+  color: white;
+}
+
+/* ========= useful-footer=========== */
+.useful-footer h2 {
+  color: white;
+}
+.useful-footer .nav-list .nav-link {
+  color: rgb(141, 154, 154);
+  font-size: 1rem;
+  transition: all 1s;
+}
+.useful-footer .nav-list .nav-link:hover {
+  color: rgb(87, 87, 255);
+}
+.useful-footer .nav-list .nav-link:active {
+  color: rgb(87, 87, 255);
+}
+
+/* ========instagram=========== */
+.instagram h2 {
+  color: white;
+}
+.instagram .nav-img {
+  object-fit: cover;
+  transition: 1.5s ease;
+  overflow: hidden;
+  border-radius: 10px;
+  border-top-right-radius: 20px;
+}
+
+.instagram img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  filter: blur(1px);
+}
+/* ===============Address-footer=========== */
+
+.footer .Address-footer .latest-footer i {
+  font-size: 2.5rem;
+  color: white;
+}
+.footer .Address-footer .latest-footer h6 {
+  color: white;
+  font-size: 1.5rem;
+}
+.footer .Address-footer .latest-footer p {
+  color: rgb(215, 215, 215);
+}
+
+/* =====Feature========== */
+.feature {
+  background: rgb(236, 242, 242);
+}
+.container-Features p1 {
+  color: blue;
+  font-size: 1.5rem;
+}
+.container-Features h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2.5rem;
+}
+.container-Features p {
+  font-size: 1rem;
+}
+/* =========== container-Features-box========== */
+.service-box {
+  height: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  transition: all 1s;
+}
+.service-box:hover {
+  background: rgb(142, 142, 223);
+  color: aliceblue;
+}
+
+.container-Features-box .box-feature i {
+  font-size: 5rem;
+}
+
+/* ==========Our-service-box========= */
+.Our-service-box {
+  height: 100%;
+  padding: 20px 30px;
+  text-align: center;
+  transition: 0.5s;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  transition: all 2s;
+}
+.Our-service-box:hover {
+  background: rgb(142, 142, 223);
+  border-radius: 20px;
+  color: white;
+}
+
+/* ===============Box-blog============ */
+.Box-blog img {
+  width: 100%;
+  border-radius: 10px;
+  /* box-shadow: 1px 1px 10px 1px; */
+  background: whitesmoke;
+  transition: all 1s;
+}
+.Box-blog:hover img {
+  background: rgb(142, 142, 223);
+  color: white;
+}
+.Box-blog:hover {
+  box-shadow: 0px 0px 1px 0px black;
+  border-radius: 10px;
+}
+.Business {
+  color: white;
+  background-color: blue;
+  border-top-left-radius: 12px;
+  height: 40px;
+  width: 90px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* ====card=== */
+.our-Team {
+  overflow: hidden;
+}
+.our-Team .picture-team {
+  overflow: hidden;
+}
+.card img {
+  transition: all 0.6s;
+}
+.card img:hover {
+  transform: scale(1.1);
+}
+
+/* ===========member========= */
+.container .client {
+  padding: 10px;
+  transition: all 1s;
+}
+.container .client:hover {
+  box-shadow: 0px 1px 1px 1px black;
+}
+
+/* Contact  */
+.container .spiner-contact img {
+  overflow: hidden;
+  transition: none;
+}
+.container .spiner-contact {
+  background: rgb(171, 8, 8);
+  width: 100%;
+  height: auto;
+
+  box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+
+  animation: slide 5s ease-in-out 0s infinite;
+  transition: all 1s ease-in-out;
+}
+@keyframes slide {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50% {
+    border-radius: 30% 60% 70% 40% /50% 60% 30% 60%;
+  }
+  100% {
+    border-radius: 60% 40% 30% 70% /60% 30% 70% 60%;
+  }
+}
